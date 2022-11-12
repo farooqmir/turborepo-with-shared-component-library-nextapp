@@ -16,11 +16,12 @@ Tools preconfigured:
 
 ## Using this example
 
-Clone the setup locally or [from GitHub]([https://github.com/farooqmir/turboreposetup](https://github.com/farooqmir/turboreposetup](https://github.com/farooqmir/turborepo-with-shared-component-library-nextapp):
+Clone the setup locally or [from GitHub](https://github.com/farooqmir/turborepo-with-shared-component-library-nextapp):
+
 
 ```bash
-npx degit https://github.com/farooqmir/turboreposetup](https://github.com/farooqmir/turborepo-with-shared-component-library-nextapp
-cd turboreposetup
+npx degit https://github.com/farooqmir/turborepo-with-shared-component-library-nextapp
+cd design-system
 yarn install
 git init . && git add . && git commit -m "Init"
 ```
