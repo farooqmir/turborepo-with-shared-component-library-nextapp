@@ -1,0 +1,29 @@
+$ next build
+warn  - You have enabled experimental feature (transpilePackages) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/3)
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      4.85 kB        83.8 kB
+├   /_app                                  0 B            78.9 kB
+├ ○ /404                                   214 B          79.1 kB
+└ λ /api/hello                             0 B            78.9 kB
++ First Load JS shared by all              80.8 kB
+  ├ chunks/framework-42399c103d919fd6.js   45.7 kB
+  ├ chunks/main-677ee9a36c39b228.js        31.8 kB
+  ├ chunks/pages/_app-aba8a1e1b6c4f7ff.js  392 B
+  ├ chunks/webpack-2369ea09e775031e.js     1.02 kB
+  └ css/af69d86c5f8870b5.css               1.85 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

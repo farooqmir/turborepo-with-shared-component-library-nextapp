@@ -1,0 +1,40 @@
+$ build-storybook --docs
+info @storybook/react v6.5.13
+info 
+info => Cleaning outputDir: /Users/farooqmir/Documents/blogs/turboreposetup/apps/docs/storybook-static
+info => Loading presets
+vite v2.9.15 building for production...
+transforming...
+Use of eval is strongly discouraged, as it poses security risks and may cause issues with minification
+Use of eval is strongly discouraged, as it poses security risks and may cause issues with minification
+Use of eval is strongly discouraged, as it poses security risks and may cause issues with minification
+'default' is not exported by '../../../../../../../virtual:/@storybook/builder-vite/preview-entry.js'
+✓ 858 modules transformed.
+rendering chunks...
+storybook-static/iframe.html                                          13.18 KiB
+storybook-static/assets/client.3bdc148d.js                            0.58 KiB / gzip: 0.36 KiB
+storybook-static/assets/client.3bdc148d.js.map                        0.90 KiB
+storybook-static/assets/index.770a6bde.js                             2.17 KiB / gzip: 1.02 KiB
+storybook-static/assets/index.770a6bde.js.map                         5.87 KiB
+storybook-static/assets/GlobalScrollAreaStyles-8793ce4a.f99db277.js   10.01 KiB / gzip: 2.22 KiB
+storybook-static/assets/GlobalScrollAreaStyles-8793ce4a.f99db277.js.map 19.02 KiB
+storybook-static/assets/renderDocs.334af515.js                        2.38 KiB / gzip: 1.13 KiB
+storybook-static/assets/renderDocs.334af515.js.map                    8.77 KiB
+storybook-static/assets/WithTooltip-167e9982.62088e39.js              37.45 KiB / gzip: 12.34 KiB
+storybook-static/assets/WithTooltip-167e9982.62088e39.js.map          174.06 KiB
+storybook-static/assets/Color-f953d088.c1d82132.js                    32.33 KiB / gzip: 12.11 KiB
+storybook-static/assets/Color-f953d088.c1d82132.js.map                128.05 KiB
+storybook-static/assets/OverlayScrollbars-1355f44c.9dda371b.js        57.54 KiB / gzip: 24.69 KiB
+storybook-static/assets/OverlayScrollbars-1355f44c.9dda371b.js.map    425.92 KiB
+storybook-static/assets/syntaxhighlighter-b07b042a.1438c4d6.js        122.55 KiB / gzip: 46.56 KiB
+storybook-static/assets/syntaxhighlighter-b07b042a.1438c4d6.js.map    452.42 KiB
+storybook-static/assets/formatter-0d5cb0eb.a81a9cac.js                700.91 KiB / gzip: 219.15 KiB
+storybook-static/assets/formatter-0d5cb0eb.a81a9cac.js.map            1624.48 KiB
+storybook-static/assets/iframe.0602ed95.js                            1440.52 KiB / gzip: 407.19 KiB
+storybook-static/assets/iframe.0602ed95.js.map                        3939.46 KiB
+
+(!) Some chunks are larger than 500 KiB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/guide/en/#outputmanualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+info => Output directory: /Users/farooqmir/Documents/blogs/turboreposetup/apps/docs/storybook-static

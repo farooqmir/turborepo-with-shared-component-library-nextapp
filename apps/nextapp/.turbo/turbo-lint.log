@@ -1,0 +1,5 @@
+$ next lint
+warn  - You have enabled experimental feature (transpilePackages) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+✔ No ESLint warnings or errors
