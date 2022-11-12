@@ -20,7 +20,7 @@ Clone the setup locally or [from GitHub](https://github.com/farooqmir/turborepos
 
 ```bash
 npx degit https://github.com/farooqmir/turboreposetup
-cd design-system
+cd turboreposetup
 yarn install
 git init . && git add . && git commit -m "Init"
 ```
