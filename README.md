@@ -1,5 +1,4 @@
-# Turborepo Design System Starter
-
+# Turborepo starter setup with shared common core components library, nextjs app, docs storybook, shared configrations, tailwindcss, postcss
 Configurations already part of the package are:
 
 1. Core library for react components - shared with other projects, used to create your application using reusable components from core library.
